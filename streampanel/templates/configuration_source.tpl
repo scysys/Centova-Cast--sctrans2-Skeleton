@@ -37,35 +37,35 @@
 
 <div class="input-group mb-3">
 <div class="input-group-prepend">
-<span class="input-group-text">>{="MP3 unlock code"}</span>
+<span class="input-group-text">{="MP3 unlock code"}</span>
 </div>
 <input disabled="disabled" type="text" name="config[unlockkeycode]" id="sct2_unlock_code" class="form-control" maxlength="127" value="{$config.unlockkeycode|htmlentities}" /> {$errors.unlockkeycode|checkerror}
 </div>
 
 <div class="input-group mb-3">
 <div class="input-group-prepend">
-<span class="input-group-text">>{="ICQ"}</span>
+<span class="input-group-text">{="ICQ"}</span>
 </div>
 <input type="text" name="config[sctransicq]" class="form-control" value="{$config.sctransicq|htmlentities}" /> {$errors.sctransicq|checkerror}
 </div>
 
 <div class="input-group mb-3">
 <div class="input-group-prepend">
-<span class="input-group-text">>{="AIM"}</span>
+<span class="input-group-text">{="AIM"}</span>
 </div>
 <input type="text" name="config[sctransaim]" class="form-control" value="{$config.sctransaim|htmlentities}" /> {$errors.sctransaim|checkerror}
 </div>
 
 <div class="input-group mb-3">
 <div class="input-group-prepend">
-<span class="input-group-text">>{="IRC"}</span>
+<span class="input-group-text">{="IRC"}</span>
 </div>
 <input type="text" name="config[sctransirc]" class="form-control" value="{$config.sctransirc|htmlentities}" /> {$errors.sctransirc|checkerror}
 </div>
 
 <div class="input-group mb-3">
 <div class="input-group-prepend">
-<span class="input-group-text">>{="Apply replay gain"}</span>
+<span class="input-group-text">{="Apply replay gain"}</span>
 </div>
 <select name="config[sctransapplyrpg]" class="form-control">
 <option value="0"{if $config.sctransapplyrpg==0} selected="selected"{/if}>{="No"}</option>
@@ -75,7 +75,7 @@
 
 <div class="input-group mb-3">
 <div class="input-group-prepend">
-<span class="input-group-text">>{="Calculate replay gain"}</span>
+<span class="input-group-text">{="Calculate replay gain"}</span>
 </div>
 <select name="config[sctranscalcrpg]" class="form-control">
 <option value="0"{if $config.sctranscalcrpg==0} selected="selected"{/if}>{="No"}</option>
